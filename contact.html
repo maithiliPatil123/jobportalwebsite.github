@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Pg</title>
+
+    <!--FontAwesome Cdn Link------------------------------------------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--CSS file link------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <!--Header section starts--------------------------------------------------------------------->
+    <header class="header">
+
+        <section class="flex">
+
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"><i class="fas fa-briefcase"></i>JobHunt</a>
+
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="all job.html">All jobs</a>
+                <a href="contact.html">Contact</a>
+                <a href="account.html">Account</a>
+            </nav>
+
+            <a href="all job.html" class="btn" style="margin-top: 0;">Post Job</a>
+        </section>
+    </header>
+
+
+
+    <!-- Contact section Starts----------------------------------------------------------------------->
+
+    <div class="section-title">contact us</div>
+
+    <section class="contact">
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="">B/101, Vasant Nagari Malhar Co.op. Hau So Ltd, Sector-10, Vasant nagari,Vasai East
+                    pincode-401
+                    205, Mumbai Maharastra.</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <a href="tel:9421234312">9421234312</a>
+                <a href="tel:9421234312">9421234312</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:maithilipatil123@gmail.com">maithilipatil123@gmail.com</a>
+                <a href="mailto:maithilipatil123@gmail.com">maithilipatil123@gmail.com</a>
+            </div>
+        </div>
+
+        <form action="" method="post">
+            <h3>Drop your message</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>Name<span>*</span></p>
+                    <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+                </div>
+
+                <div class="box">
+                    <p>Email<span>*</span></p>
+                    <input type="email" name="email" required maxlength="50" placeholder="enter your email"
+                        class="input">
+                </div>
+
+                <div class="box">
+                    <p>Number<span>*</span></p>
+                    <input type="number" name="number" required maxlength="20" required min="0" max="9999999999"
+                        placeholder="enter your number" class="input">
+                </div>
+
+                <div class="box">
+                    <p>Role<span>*</span></p>
+                    <select name="role" required class="input">
+                        <option value="employee">Job seeker(employee)</option>
+                        <option value="employee">Job provider(employer)</option>
+                    </select>
+                </div>
+            </div>
+
+            <p>Message<span>*</span></p>
+            <textarea name="message" class="input" required maxlength="1000" placeholder="enter you message" cols="30"
+                rows="10"></textarea>
+
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+    </section>
+
+    <!--Footer Section starts-------------------------------------------------------------------------->
+
+    <footer class="footer">
+
+        <section class="grid">
+
+            <div class="box">
+                <h3>quick links</h3>
+
+                <a href="home.html"><i class="fas fa-angle-right"></i>home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+                <a href="jobs.html"><i class="fas fa-angle-right"></i>all jobs</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i>contact</a>
+
+                <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
+
+            </div>
+
+            <div class="box">
+                <h3>extra link</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>account</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>Login</a>
+                <a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+
+                <a href="#"><i class="fas fa-angle-right"></i>post job</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Dashboard</a>
+
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="fab fa-youtube"></i>youtube</a>
+            </div>
+        </section>
+
+        <div class="credit">&copy; copyright @2024 by <span>Mrs.Maithily Rajput</span> | all rights reserved!</div>
+    </footer>
+
+    <!--Footer section Ends----------------------------------------------------------------------->
